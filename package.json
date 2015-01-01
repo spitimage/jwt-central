@@ -8,7 +8,7 @@
   },
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": {
     "name": "Aaron Nielsen",
@@ -27,7 +27,8 @@
     "passport-google-oauth": "^0.1.5"
   },
   "devDependencies": {
-    "supertest": "^0.15.0",
-    "chai": "^1.10.0"
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "supertest": "^0.15.0"
   }
 }
