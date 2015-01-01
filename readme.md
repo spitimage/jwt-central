@@ -1,3 +1,9 @@
+# jwt-central
+
+[![Build Status](https://travis-ci.org/spitimage/jwt-central.svg?branch=master)](https://travis-ci.org/spitimage/jwt-central)
+
+Centralized auth server for issuing JWTs from multiple providers
+
 # Introduction
 This is a node/express application that provides _centralized_ and _consistent_ [JWT][jwt] provisioning. It delegates the actual authentication to a variety of identity providers (allowing the true experts to perform the hard part). The JWTs provisioned by this application are signed using [PKI][pki] to support simple and quick validation using a cached public key.
 
