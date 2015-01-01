@@ -1,0 +1,33 @@
+{
+  "name": "jwt-central",
+  "version": "0.0.1",
+  "description": "Centralized auth server for issuing JWTs from multiple providers.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spitimage/jwt-central"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Aaron Nielsen",
+    "email": "spitimage@gmail.com",
+    "url": "http://spitimage.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^1.1.0",
+    "express": "^4.10.6",
+    "jsonwebtoken": "^2.0.0",
+    "lodash": "^2.4.1",
+    "morgan": "^1.5.0",
+    "passport": "^0.2.1",
+    "passport-github": "git://github.com/jaredhanson/passport-github.git#af8bad0041f7b8e902af3d81cbe6f197d825eb55",
+    "passport-google-oauth": "^0.1.5"
+  },
+  "devDependencies": {
+    "supertest": "^0.15.0",
+    "chai": "^1.10.0"
+  }
+}
